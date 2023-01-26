@@ -10,7 +10,7 @@ for (let i = 0; i < 100; i++) {
     // creo un ciclo in cui prima cerco i divisori comuni, in modo da escluderli subito
     if ((i + 1) % 3 == 0 && (i + 1) % 5 == 0) {
         boxItem.classList.add("box-fizzbuzz");
-        boxItem.innerText = "fizz";
+        boxItem.innerText = "fizzbuzz";
     } else {
         // ora creo un secondo ciclo per verificare i divisori singoli
         if ((i + 1) % 3 == 0) {
